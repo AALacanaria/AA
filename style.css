@@ -12,11 +12,18 @@ body {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     background-color: powderblue;
+    overflow: hidden;
+}
+
+.vid {
+    display: flex;
+    position: absolute;
+    justify-content: center;
 }
 
 .message {
     font-size: 12px; 
-    font-weight: 300; 
+    font-weight: 500; 
     font-style: italic; 
     margin: 8%; 
     text-align: left;
